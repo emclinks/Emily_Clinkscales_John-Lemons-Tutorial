@@ -15,11 +15,11 @@ C:/Users/gscli/Documents/GitHub/Emily_Clinkscales_John-Lemons-Tutorial/Emily_Cli
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51520
+54200
 Successfully changed project path to: C:/Users/gscli/Documents/GitHub/Emily_Clinkscales_John-Lemons-Tutorial/Emily_Clinkscales_John-Lemon-Tutorial
 C:/Users/gscli/Documents/GitHub/Emily_Clinkscales_John-Lemons-Tutorial/Emily_Clinkscales_John-Lemon-Tutorial
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 81.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -31,107 +31,80 @@ Direct3D:
     Vendor:   
     VRAM:     8012 MB
     Driver:   30.0.15.1179
-Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017240 seconds.
+Registered in 0.004053 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 81.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.811 seconds
+- Completed reload, in  0.825 seconds
 Domain Reload Profiling:
-	ReloadAssembly (811ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (581ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (638ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.023351 seconds.
+Registered in 0.012943 seconds.
 Begin MonoManager ReloadAssembly
-Error: Could not load signature of Codice.CheckWorkspaceTreeNodeStatus:IsPrivate due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll, this assembly can cause crashes in the runtime
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 81.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-System.TypeLoadException: Could not find method due to a type load error
-  at CollabProxy.UI.Bootstrap..cctor () [0x00000] in C:\Users\gscli\Documents\GitHub\Emily_Clinkscales_John-Lemons-Tutorial\Emily_Clinkscales_John-Lemon-Tutorial\Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\UserInterface\Bootstrap.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
+- Completed reload, in  1.552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1206ms)
-		BeginReloadAssembly (176ms)
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (200ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (938ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1272ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (277ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (496ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -139,18 +112,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 928 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.7 MB.
+Unloading 3167 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.0 MB.
+System memory in use after: 215.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1368.
-Total: 2.840300 ms (FindLiveObjects: 0.093200 ms CreateObjectMapping: 0.030700 ms MarkObjects: 2.602800 ms  DeleteObjects: 0.112700 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3607.
+Total: 4.826800 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.270600 ms MarkObjects: 4.115700 ms  DeleteObjects: 0.114400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -165,1320 +135,155 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(4b32d296f22ef544caf49758d8111991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(4b32d296f22ef544caf49758d8111991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d528e37f5c49bf418a7f0cc4e296a1f') in 0.008878 seconds 
-  Import took 0.011191 seconds .
+  path: Assets/Models
+  artifactKey: Guid(665f47856a508c64096ca0321eb55b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(665f47856a508c64096ca0321eb55b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f453f725d827593d482a8fb17ba549') in 0.013208 seconds 
+  Import took 0.019975 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.962125 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(1cc8c9499aeb9364b873c1a0a66b67a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(1cc8c9499aeb9364b873c1a0a66b67a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6ab23c3b3920172cb9aef213a340ae') in 0.036171 seconds 
-  Import took 0.039059 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011051 seconds.
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Codice.CheckWorkspaceTreeNodeStatus:IsPrivate due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:GetBranchRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:BuildRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll, this assembly can cause crashes in the runtime
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.TypeLoadException: Could not find method due to a type load error
-  at CollabProxy.UI.Bootstrap..cctor () [0x00000] in C:\Users\gscli\Documents\GitHub\Emily_Clinkscales_John-Lemons-Tutorial\Emily_Clinkscales_John-Lemon-Tutorial\Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\UserInterface\Bootstrap.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1061ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (213ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 900 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.3 MB.
-System memory in use after: 62.3 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1371.
-Total: 2.936700 ms (FindLiveObjects: 0.093900 ms CreateObjectMapping: 0.033000 ms MarkObjects: 2.722300 ms  DeleteObjects: 0.086600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010935 seconds.
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:GetBranchRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:BuildRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Codice.CheckWorkspaceTreeNodeStatus:IsPrivate due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll, this assembly can cause crashes in the runtime
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.TypeLoadException: Could not find method due to a type load error
-  at CollabProxy.UI.Bootstrap..cctor () [0x00000] in C:\Users\gscli\Documents\GitHub\Emily_Clinkscales_John-Lemons-Tutorial\Emily_Clinkscales_John-Lemon-Tutorial\Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\UserInterface\Bootstrap.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1056ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (213ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 900 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.3 MB.
-System memory in use after: 62.3 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1373.
-Total: 2.999200 ms (FindLiveObjects: 0.101500 ms CreateObjectMapping: 0.031400 ms MarkObjects: 2.767100 ms  DeleteObjects: 0.098100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 953.077736 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(1cc8c9499aeb9364b873c1a0a66b67a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(1cc8c9499aeb9364b873c1a0a66b67a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea0a93f70f60aafe38be3a04b317058') in 0.007260 seconds 
-  Import took 0.009617 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012664 seconds.
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Codice.CheckWorkspaceTreeNodeStatus:IsPrivate due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:GetBranchRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:BuildRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll, this assembly can cause crashes in the runtime
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.TypeLoadException: Could not find method due to a type load error
-  at CollabProxy.UI.Bootstrap..cctor () [0x00000] in C:\Users\gscli\Documents\GitHub\Emily_Clinkscales_John-Lemons-Tutorial\Emily_Clinkscales_John-Lemon-Tutorial\Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\UserInterface\Bootstrap.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1288ms)
-		BeginReloadAssembly (168ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1023ms)
-			LoadAssemblies (165ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (317ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 900 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.4 MB.
-System memory in use after: 62.3 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1375.
-Total: 3.613800 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.063200 ms MarkObjects: 3.262100 ms  DeleteObjects: 0.120200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 154.440764 seconds.
-  path: Assets/Animation/Animators/JohnLemon.controller
-  artifactKey: Guid(f36e08d77604768499b717987ef4f7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Animators/JohnLemon.controller using Guid(f36e08d77604768499b717987ef4f7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c412fea437f36ea5e8dee2b057b221b5') in 0.033230 seconds 
-  Import took 0.036026 seconds .
+  Time since last request: 299.340396 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.088986 seconds 
+  Import took 0.097883 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4865.821266 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(3e1bd89d809281340bf4bf4886798ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(3e1bd89d809281340bf4bf4886798ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ae61e5ebd06f939b643678f4fdfcdf') in 0.013346 seconds 
-  Import took 0.060850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/Prefabs/JohnLemon.prefab
-  artifactKey: Guid(300a049ee601e7c46b4c36d68ba857e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/JohnLemon.prefab using Guid(300a049ee601e7c46b4c36d68ba857e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93ae8a27146f79b8d4314ee20941071') in 0.259048 seconds 
-  Import took 0.261781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Prefabs/Level.prefab
-  artifactKey: Guid(549c69af39b84624b8a053537c407def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level.prefab using Guid(549c69af39b84624b8a053537c407def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff72e3ece12 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff72e3bebc2 (Unity) ResolveArtifactV2
-0x00007ff72e3d7d60 (Unity) ImportToObjects
-0x00007ff72e3d71a8 (Unity) ImportAsset
-0x00007ff72e371238 (Unity) AssetImportWorker::Import
-0x00007ff72e39691a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
-0x00007ff72e41e2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff72e420450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff72e423bce (Unity) asio::io_service::run
-0x00007ff72e3bf8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff72e3bf930 (Unity) RunAssetImporterV2
-0x00007ff72de65b49 (Unity) Application::InitializeProject
-0x00007ff72e2bb4f2 (Unity) WinMain
-0x00007ff72f94bd4e (Unity) __scrt_common_main_seh
-0x00007ffd885c7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffd89802651 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000), Assets/Prefabs/Level.prefab from editor
-Resuming Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000) -> a669ebf4993fedc7116848087360979f 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff72e3ece12 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff72e3bebc2 (Unity) ResolveArtifactV2
-0x00007ff72e3b6cb1 (Unity) ProduceArtifactV2
-0x00007ff72e34ce5e (Unity) AssetDatabase::ProduceArtifact
-0x00007ff72e336db8 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff72e3d8132 (Unity) ImportToObjects
-0x00007ff72e3d71a8 (Unity) ImportAsset
-0x00007ff72e371238 (Unity) AssetImportWorker::Import
-0x00007ff72e39691a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
-0x00007ff72e41e2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff72e420450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff72e423bce (Unity) asio::io_service::run
-0x00007ff72e3bf8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff72e3bf930 (Unity) RunAssetImporterV2
-0x00007ff72de65b49 (Unity) Application::InitializeProject
-0x00007ff72e2bb4f2 (Unity) WinMain
-0x00007ff72f94bd4e (Unity) __scrt_common_main_seh
-0x00007ffd885c7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffd89802651 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000), Assets/Prefabs/Level.prefab from editor
-Resuming Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000) -> a669ebf4993fedc7116848087360979f 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '64840b9b8dd933294405d76da0d68a23') in 0.514704 seconds 
-  Import took 0.517050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.058999 seconds.
-  path: Assets/Prefabs/Environment
-  artifactKey: Guid(0de8ecb26cbe0cc42824052a40e35836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment using Guid(0de8ecb26cbe0cc42824052a40e35836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba34c4137ecdc4abbe8b4defc5995b50') in 0.010274 seconds 
-  Import took 0.012845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.637279 seconds.
-  path: Assets/Prefabs/Level.prefab
-  artifactKey: Guid(549c69af39b84624b8a053537c407def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level.prefab using Guid(549c69af39b84624b8a053537c407def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff72e3ece12 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff72e3bebc2 (Unity) ResolveArtifactV2
-0x00007ff72e3d7d60 (Unity) ImportToObjects
-0x00007ff72e3d71a8 (Unity) ImportAsset
-0x00007ff72e371238 (Unity) AssetImportWorker::Import
-0x00007ff72e39691a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
-0x00007ff72e41e2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff72e420450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff72e423bce (Unity) asio::io_service::run
-0x00007ff72e3bf8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff72e3bf930 (Unity) RunAssetImporterV2
-0x00007ff72de65b49 (Unity) Application::InitializeProject
-0x00007ff72e2bb4f2 (Unity) WinMain
-0x00007ff72f94bd4e (Unity) __scrt_common_main_seh
-0x00007ffd885c7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffd89802651 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000), Assets/Prefabs/Level.prefab from editor
-Resuming Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000) -> 3749373129b8b0dd0e73a377fc670fc7 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff72e3ece12 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff72e3bebc2 (Unity) ResolveArtifactV2
-0x00007ff72e3b6cb1 (Unity) ProduceArtifactV2
-0x00007ff72e34ce5e (Unity) AssetDatabase::ProduceArtifact
-0x00007ff72e336db8 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff72e3d8132 (Unity) ImportToObjects
-0x00007ff72e3d71a8 (Unity) ImportAsset
-0x00007ff72e371238 (Unity) AssetImportWorker::Import
-0x00007ff72e39691a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
-0x00007ff72e41e2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff72e420450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff72e423bce (Unity) asio::io_service::run
-0x00007ff72e3bf8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff72e3bf930 (Unity) RunAssetImporterV2
-0x00007ff72de65b49 (Unity) Application::InitializeProject
-0x00007ff72e2bb4f2 (Unity) WinMain
-0x00007ff72f94bd4e (Unity) __scrt_common_main_seh
-0x00007ffd885c7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffd89802651 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000), Assets/Prefabs/Level.prefab from editor
-Resuming Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000) -> 3749373129b8b0dd0e73a377fc670fc7 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '64840b9b8dd933294405d76da0d68a23') in 0.010895 seconds 
-  Import took 0.013564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.730123 seconds.
-  path: Assets/Prefabs/Environment/Bathroom
-  artifactKey: Guid(323165c71f87e604c9230c79d9a124aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Bathroom using Guid(323165c71f87e604c9230c79d9a124aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77321e391349489c59f41a0f2fc40c6e') in 0.018739 seconds 
-  Import took 0.022363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035929 seconds.
-  path: Assets/Prefabs/Environment/Bathroom/Bathtub.prefab
-  artifactKey: Guid(f26189160194a0d498daa22e9472b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Bathroom/Bathtub.prefab using Guid(f26189160194a0d498daa22e9472b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49abc57f25203aa60478eaac9b9fced1') in 0.007667 seconds 
-  Import took 0.010167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Prefabs/Environment/Bathroom/Pipe.prefab
-  artifactKey: Guid(56702188126f5154ba3e75b53bf5acc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Bathroom/Pipe.prefab using Guid(56702188126f5154ba3e75b53bf5acc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bd1efd86bc0c7bd48df5876c6c5960') in 0.011747 seconds 
-  Import took 0.014327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Prefabs/Environment/Bathroom/Radiator.prefab
-  artifactKey: Guid(9ded59359705f924f827fd6059c964fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Bathroom/Radiator.prefab using Guid(9ded59359705f924f827fd6059c964fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fd9ff7ebbace931ca4fad2e1d4e6e5') in 0.008448 seconds 
-  Import took 0.011072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Prefabs/Environment/Bathroom/Mirror.prefab
-  artifactKey: Guid(d6031845cf3b4ec40bda7a32e18cf967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Bathroom/Mirror.prefab using Guid(d6031845cf3b4ec40bda7a32e18cf967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdd9753042bb07d8c89ff47f21344b7') in 0.010110 seconds 
-  Import took 0.012864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Prefabs/Environment/Bathroom/Sink.prefab
-  artifactKey: Guid(b2cd9ca61be77744ea109931b362b28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Bathroom/Sink.prefab using Guid(b2cd9ca61be77744ea109931b362b28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1052a1a169152375e81e04606b94653f') in 0.008161 seconds 
-  Import took 0.010920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.650457 seconds.
-  path: Assets/Prefabs/Environment/Bathroom/Bathtub.prefab
-  artifactKey: Guid(f26189160194a0d498daa22e9472b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Environment/Bathroom/Bathtub.prefab using Guid(f26189160194a0d498daa22e9472b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594c87ccc64f34d20c2a4eea4b7804cb') in 0.008968 seconds 
-  Import took 0.011631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.832994 seconds.
-  path: Assets/Prefabs/Level.prefab
-  artifactKey: Guid(549c69af39b84624b8a053537c407def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level.prefab using Guid(549c69af39b84624b8a053537c407def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
-0x00007ff72e3ece12 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff72e3bebc2 (Unity) ResolveArtifactV2
-0x00007ff72e3d7d60 (Unity) ImportToObjects
-0x00007ff72e3d71a8 (Unity) ImportAsset
-0x00007ff72e371238 (Unity) AssetImportWorker::Import
-0x00007ff72e39691a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
-0x00007ff72e41e2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff72e420450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff72e423bce (Unity) asio::io_service::run
-0x00007ff72e3bf8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff72e3bf930 (Unity) RunAssetImporterV2
-0x00007ff72de65b49 (Unity) Application::InitializeProject
-0x00007ff72e2bb4f2 (Unity) WinMain
-0x00007ff72f94bd4e (Unity) __scrt_common_main_seh
-0x00007ffd885c7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffd89802651 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000), Assets/Prefabs/Level.prefab from editor
-Resuming Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000) -> 384cfe20ca3cd9cd1027b5dd1d55f5ff 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
-Diagnostics callstack to track who triggered the sub-import:
-0x00007ff72e3ece12 (Unity) ImporterAssetResolver::ResolveAsset
-0x00007ff72e3bebc2 (Unity) ResolveArtifactV2
-0x00007ff72e3b6cb1 (Unity) ProduceArtifactV2
-0x00007ff72e34ce5e (Unity) AssetDatabase::ProduceArtifact
-0x00007ff72e336db8 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff72e3d8132 (Unity) ImportToObjects
-0x00007ff72e3d71a8 (Unity) ImportAsset
-0x00007ff72e371238 (Unity) AssetImportWorker::Import
-0x00007ff72e39691a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
-0x00007ff72e41e2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff72e420450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff72e423bce (Unity) asio::io_service::run
-0x00007ff72e3bf8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff72e3bf930 (Unity) RunAssetImporterV2
-0x00007ff72de65b49 (Unity) Application::InitializeProject
-0x00007ff72e2bb4f2 (Unity) WinMain
-0x00007ff72f94bd4e (Unity) __scrt_common_main_seh
-0x00007ffd885c7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffd89802651 (ntdll) RtlUserThreadStart
-
-Requesting import of Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000), Assets/Prefabs/Level.prefab from editor
-Resuming Guid(549c69af39b84624b8a053537c407def) Importer(-1,00000000000000000000000000000000) -> 384cfe20ca3cd9cd1027b5dd1d55f5ff 
-Assertion failed on expression: 'state.state == kUpToDate'
-Assertion failed on expression: 'state.artifactID == result'
- -> (artifact id: '64840b9b8dd933294405d76da0d68a23') in 0.011005 seconds 
-  Import took 0.013749 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015342 seconds.
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:GetBranchRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:BuildRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Codice.CheckWorkspaceTreeNodeStatus:IsPrivate due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:GetBranchRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:BuildRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll, this assembly can cause crashes in the runtime
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.TypeLoadException: Could not find method due to a type load error
-  at CollabProxy.UI.Bootstrap..cctor () [0x00000] in C:\Users\gscli\Documents\GitHub\Emily_Clinkscales_John-Lemons-Tutorial\Emily_Clinkscales_John-Lemon-Tutorial\Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\UserInterface\Bootstrap.cs:14 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1021ms)
-		BeginReloadAssembly (196ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (740ms)
-			LoadAssemblies (157ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (217ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 905 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.8 MB.
-System memory in use after: 66.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1387.
-Total: 3.074800 ms (FindLiveObjects: 0.105200 ms CreateObjectMapping: 0.028700 ms MarkObjects: 2.433400 ms  DeleteObjects: 0.506800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 80.233446 seconds.
-  path: Assets/Prefabs/Level.prefab
-  artifactKey: Guid(549c69af39b84624b8a053537c407def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level.prefab using Guid(549c69af39b84624b8a053537c407def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002f66c5889300f6eaf1157bd8bab00d') in 0.576304 seconds 
-  Import took 0.591566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72357.770380 seconds.
-  path: Assets/Materials/VFX/WaterDropSmall.mat
-  artifactKey: Guid(c4d4365c3eeb8a54183f5af15699021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VFX/WaterDropSmall.mat using Guid(c4d4365c3eeb8a54183f5af15699021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243a7f5e010d5df3b571d048a7211b62') in 0.218243 seconds 
-  Import took 0.276631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Materials/BedRoom/Wardrobe.mat
-  artifactKey: Guid(9e2335d028e7ab645970536c61cf4aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BedRoom/Wardrobe.mat using Guid(9e2335d028e7ab645970536c61cf4aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb64d0196b5c7aac1f6393877a94a3cd') in 0.034557 seconds 
-  Import took 0.037869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Materials/BedRoom/Wall_Bedroom.mat
-  artifactKey: Guid(a1d7f57e6086c9a4bb159a2e0cfb2228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BedRoom/Wall_Bedroom.mat using Guid(a1d7f57e6086c9a4bb159a2e0cfb2228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da062979fbdabcc332e839c793be72e') in 0.046002 seconds 
-  Import took 0.048986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Materials/DiningRoom/Wall_Diningroom.mat
-  artifactKey: Guid(af5618451dbad9c4a913f502e5c7df1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DiningRoom/Wall_Diningroom.mat using Guid(af5618451dbad9c4a913f502e5c7df1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfc52a501c0f6c9b89b5f41e58687cf') in 0.036095 seconds 
-  Import took 0.038773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Materials/Bathroom/Wall_Bathroom.mat
-  artifactKey: Guid(785750043eaf5004da3d0b54f39941c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Wall_Bathroom.mat using Guid(785750043eaf5004da3d0b54f39941c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d705ce9c21d7d144ca5e4bf181a22f6') in 0.029285 seconds 
-  Import took 0.031837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Models/Corridor/Wall_Corner_Exterior_Out.fbx
-  artifactKey: Guid(8a4dc94854ea93147b8b87b7df72a8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Corridor/Wall_Corner_Exterior_Out.fbx using Guid(8a4dc94854ea93147b8b87b7df72a8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072e232a7e6394c3217ea984a3212551') in 0.147194 seconds 
-  Import took 0.150328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Models/Corridor/Wall_Straight_02.fbx
-  artifactKey: Guid(241f3dc7f2ed74d40a90ce43df5e2f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Corridor/Wall_Straight_02.fbx using Guid(241f3dc7f2ed74d40a90ce43df5e2f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d38b25de895fb9917efcfa36b03db2') in 0.052983 seconds 
-  Import took 0.055598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Materials/DiningRoom/Table.mat
-  artifactKey: Guid(147dac9aa1b5dd149a5ad652019e5ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DiningRoom/Table.mat using Guid(147dac9aa1b5dd149a5ad652019e5ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb9db12016c6f110219caf3cfb1b10e') in 0.032522 seconds 
-  Import took 0.035109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Materials/VFX/Steam.mat
-  artifactKey: Guid(4cd7f6cf6430b2347803bd0c957fbbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VFX/Steam.mat using Guid(4cd7f6cf6430b2347803bd0c957fbbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24080dd5cd64f8964c06fa4fe5bdded5') in 0.021567 seconds 
-  Import took 0.024468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee6f73e101f57bc68259e846f959f0e') in 0.188313 seconds 
-  Import took 0.191082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Materials/VFX/Skybox.mat
-  artifactKey: Guid(6ee0d89101b323c4ea17b397eea7fb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VFX/Skybox.mat using Guid(6ee0d89101b323c4ea17b397eea7fb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b34456fae8ee3710249ce3fd7542545') in 0.021859 seconds 
-  Import took 0.024453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Materials/Bathroom/Radiator.mat
-  artifactKey: Guid(2d63e5640f378c04ebe27363eb0fff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Radiator.mat using Guid(2d63e5640f378c04ebe27363eb0fff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0236c0e9f59cd20a26b23333b13950') in 0.025706 seconds 
-  Import took 0.028594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Materials/Bathroom/Sink.mat
-  artifactKey: Guid(7dc883052ccb59842a9c6b10113e1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Sink.mat using Guid(7dc883052ccb59842a9c6b10113e1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121f2da60d9096e3b96eead235ff31bc') in 0.024406 seconds 
-  Import took 0.027206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Models/Corridor/Wall_Corner_Exterior_In.fbx
-  artifactKey: Guid(ce7c02c9dadf6a6469afbcc32ab786ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Corridor/Wall_Corner_Exterior_In.fbx using Guid(ce7c02c9dadf6a6469afbcc32ab786ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de7194acd3c135791f3e6ff39e44652') in 0.028899 seconds 
-  Import took 0.031948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Materials/VFX/Splash.mat
-  artifactKey: Guid(e9f88b6d5b7b7f24c8b3dc6b70f06653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VFX/Splash.mat using Guid(e9f88b6d5b7b7f24c8b3dc6b70f06653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4a39016f417f27dd73ef185fed97f5') in 2.477225 seconds 
-  Import took 2.480047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Materials/BedRoom/Bedside.mat
-  artifactKey: Guid(3c953e27c072d4148887dc773952671a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BedRoom/Bedside.mat using Guid(3c953e27c072d4148887dc773952671a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc03030e0d4e04ec966fdb5405add7e') in 0.026256 seconds 
-  Import took 0.029111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Models/Corridor/CeilingPlane.fbx
-  artifactKey: Guid(4aa23393587d7204bbc9f4a30599bf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Corridor/CeilingPlane.fbx using Guid(4aa23393587d7204bbc9f4a30599bf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542ca17e2e3c21e97949c295b4821978') in 0.033269 seconds 
-  Import took 0.036481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Materials/Characters/JohnToon.mat
-  artifactKey: Guid(a0f36fc0d25b946499ac2f95f2b6ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Characters/JohnToon.mat using Guid(a0f36fc0d25b946499ac2f95f2b6ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff13ef5cc1b1c2f0cef17f8760b2e486') in 0.041101 seconds 
-  Import took 0.044103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Materials/VFX/CandleFlame.mat
-  artifactKey: Guid(d960d897cdc819041a73dceb80befb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VFX/CandleFlame.mat using Guid(d960d897cdc819041a73dceb80befb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2996b59b2fc92d4cf47f12515dd6af9f') in 0.024113 seconds 
-  Import took 0.026825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Materials/Bathroom/Pipes.mat
-  artifactKey: Guid(b1512eb4ac821d144a9ed308b1f32108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Pipes.mat using Guid(b1512eb4ac821d144a9ed308b1f32108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbee07e0598282a151513fd0b67072c') in 0.026481 seconds 
-  Import took 0.029201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Models/Corridor/Wall_Corner_Interior.fbx
-  artifactKey: Guid(9da5aa368549f3e4883e3ca4b3ed05b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Corridor/Wall_Corner_Interior.fbx using Guid(9da5aa368549f3e4883e3ca4b3ed05b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4ae3b9713653d0a7c1fdde7563f941') in 0.034055 seconds 
-  Import took 0.037144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Materials/DiningRoom/Monster_Lamp.mat
-  artifactKey: Guid(a63ef733125d6e04394962301d501be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DiningRoom/Monster_Lamp.mat using Guid(a63ef733125d6e04394962301d501be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a361db90396aef0841d39fab714e2350') in 0.027757 seconds 
-  Import took 0.030728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Materials/Bathroom/Floor.mat
-  artifactKey: Guid(8254b3265a6122b4d960969cacd74683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Floor.mat using Guid(8254b3265a6122b4d960969cacd74683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc238c2665517e2ed8925d3d75c0839') in 0.030116 seconds 
-  Import took 0.033229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Models/Diningroom/Floor_Diningroom.fbx
-  artifactKey: Guid(698328cb89c262d47803daf585012ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Diningroom/Floor_Diningroom.fbx using Guid(698328cb89c262d47803daf585012ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0c51f19d8b90c2c4cea8bedb589dc6') in 0.028057 seconds 
-  Import took 0.030527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Materials/Corridor/Light.mat
-  artifactKey: Guid(f8576e77e5ebf4b49ae5475f634ed53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Corridor/Light.mat using Guid(f8576e77e5ebf4b49ae5475f634ed53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b6407345d65a7d0dfca0a02557a313') in 0.028454 seconds 
-  Import took 0.031260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Materials/Bathroom/Bathtub.mat
-  artifactKey: Guid(b80a9d3765165844c9e6e6505f6d511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Bathtub.mat using Guid(b80a9d3765165844c9e6e6505f6d511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e00bd7abab3cf39d8ff689c10f78d9c') in 0.024999 seconds 
-  Import took 0.027715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Materials/Bathroom/Mirror.mat
-  artifactKey: Guid(3086cb16e9941b845ac6e853a3a4e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Mirror.mat using Guid(3086cb16e9941b845ac6e853a3a4e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5368d599a951b5f9c5c20598d73c0ca3') in 0.021075 seconds 
-  Import took 0.023876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Materials/Corridor/Light_Glass.mat
-  artifactKey: Guid(d50d52e4c69a3cf45bf45594297ca6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Corridor/Light_Glass.mat using Guid(d50d52e4c69a3cf45bf45594297ca6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd84c71b60913568256878524c9adf69') in 0.021189 seconds 
-  Import took 0.024209 seconds .
+  Time since last request: 31962.616216 seconds.
+  path: Assets/Textures/UI/Caught.png
+  artifactKey: Guid(85d46c7add1129741a0d78fadba6998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/Caught.png using Guid(85d46c7add1129741a0d78fadba6998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b8f451a02fb64b7aeaeafcb8bb0e47') in 0.330008 seconds 
+  Import took 0.386020 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000325 seconds.
-  path: Assets/Materials/BedRoom/Bed.mat
-  artifactKey: Guid(f9b5ce623b689d74d8e935a8c979ffc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BedRoom/Bed.mat using Guid(f9b5ce623b689d74d8e935a8c979ffc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6cfd5a5cb65500c73ca58e5cd8ca9f') in 0.026126 seconds 
-  Import took 0.028878 seconds .
+  path: Assets/Textures/VFX/DustMote.png
+  artifactKey: Guid(394e93ce356b57344903a08ff72fcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/VFX/DustMote.png using Guid(394e93ce356b57344903a08ff72fcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87648f1c0729649b3d482d88df1ca5ca') in 0.027272 seconds 
+  Import took 0.034765 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Materials/Characters/Ghost.mat
-  artifactKey: Guid(8f87494fdf66565419fa381814c5129b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Characters/Ghost.mat using Guid(8f87494fdf66565419fa381814c5129b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7fca4b8d107db792e2a89c8ef56a39') in 0.039914 seconds 
-  Import took 0.042820 seconds .
+  Time since last request: 0.000381 seconds.
+  path: Assets/Textures/UI/Won.png
+  artifactKey: Guid(623a7345ca6d38f4280b86c32ffe7c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/Won.png using Guid(623a7345ca6d38f4280b86c32ffe7c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff586428832c43532475235cb8648b94') in 0.036933 seconds 
+  Import took 0.043658 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Materials/VFX/PlaneFog.mat
-  artifactKey: Guid(061fb137bedaf3e4fad039b9006afa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VFX/PlaneFog.mat using Guid(061fb137bedaf3e4fad039b9006afa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf1cc6c48dce9104163bf9b4d93965b') in 0.020067 seconds 
-  Import took 0.022582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Materials/VFX/Emissive.mat
-  artifactKey: Guid(effb672a2c71f0c40b7b1960d798968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VFX/Emissive.mat using Guid(effb672a2c71f0c40b7b1960d798968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422c6a3f75b9da0af2862d2e86c90d6b') in 0.019036 seconds 
-  Import took 0.022599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Materials/DiningRoom/Fireplace.mat
-  artifactKey: Guid(544283c42b7173849a938d1ac4cd9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DiningRoom/Fireplace.mat using Guid(544283c42b7173849a938d1ac4cd9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a261c653cefd42e679860f6430dc7214') in 0.026662 seconds 
-  Import took 0.029273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Materials/Bathroom/Bathtub_Leg.mat
-  artifactKey: Guid(11bfd79fc51953c41bdf8fde66fa099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Bathtub_Leg.mat using Guid(11bfd79fc51953c41bdf8fde66fa099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7060ddfcd6cf50177e83d3d53e4d1f7e') in 0.022728 seconds 
-  Import took 0.026000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Materials/VFX/DustMote.mat
-  artifactKey: Guid(e27a3e2f84809914fa5bf3a7ac14ce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VFX/DustMote.mat using Guid(e27a3e2f84809914fa5bf3a7ac14ce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076da7ce7b1bdd56a5650e53f53086fd') in 0.021779 seconds 
-  Import took 0.024599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Materials/Characters/JohnPBR.mat
-  artifactKey: Guid(ec8dc473ea10be74bada0165e17a99d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Characters/JohnPBR.mat using Guid(ec8dc473ea10be74bada0165e17a99d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0349b3e8b99f9637de991c60d0334e') in 0.026003 seconds 
-  Import took 0.028865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Materials/DiningRoom/CandleStick.mat
-  artifactKey: Guid(8d2cd8bfb9126c744ba6ef80defb2620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DiningRoom/CandleStick.mat using Guid(8d2cd8bfb9126c744ba6ef80defb2620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca4867dee7ac6a30c3a277acd6d886b') in 0.026357 seconds 
-  Import took 0.028976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Materials/DiningRoom/Clock.mat
-  artifactKey: Guid(8d2783b3e3276774b8ee18214091ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DiningRoom/Clock.mat using Guid(8d2783b3e3276774b8ee18214091ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b99426bfa3c72a94225a22d2c041bf2') in 0.026743 seconds 
-  Import took 0.029459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Materials/Corridor/PictureFrame.mat
-  artifactKey: Guid(e709f83e862ff314e8258b7a60c45ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Corridor/PictureFrame.mat using Guid(e709f83e862ff314e8258b7a60c45ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa594dcaf48109f91a6ce36b5a2e073a') in 0.029753 seconds 
-  Import took 0.032445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Materials/Bathroom/BathtubLeg.mat
-  artifactKey: Guid(d7e2196a7a474e74fba16ada321c14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/BathtubLeg.mat using Guid(d7e2196a7a474e74fba16ada321c14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c92817e2b9d55a4b2eb857b955fe843') in 0.021336 seconds 
-  Import took 0.024076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Materials/Characters/Gargoyle.mat
-  artifactKey: Guid(380abfdf82677234e922db7133b0e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Characters/Gargoyle.mat using Guid(380abfdf82677234e922db7133b0e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7389655ac57f567d1a13ee9a07c31c') in 0.036592 seconds 
-  Import took 0.040097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Materials/Corridor/Rugs.mat
-  artifactKey: Guid(f5b8db6c5de6a6a4984f8dd09c302b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Corridor/Rugs.mat using Guid(f5b8db6c5de6a6a4984f8dd09c302b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfe824f856942411b1125e6b8d8d4f1') in 0.029102 seconds 
-  Import took 0.031751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Models/Corridor/FloorPlane.fbx
-  artifactKey: Guid(79ec22444806b2e4dafc0b51ad057fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Corridor/FloorPlane.fbx using Guid(79ec22444806b2e4dafc0b51ad057fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f0b25b8780cd1d719770b374bebad0') in 0.028749 seconds 
-  Import took 0.031349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Materials/Corridor/Wall_Corridor.mat
-  artifactKey: Guid(b6a0ac0240204cb4ea4b84d1e2dab2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Corridor/Wall_Corridor.mat using Guid(b6a0ac0240204cb4ea4b84d1e2dab2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6254c4c17b737e6c1811d5a1153155d') in 0.025975 seconds 
-  Import took 0.028576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Materials/Corridor/Window.mat
-  artifactKey: Guid(5d7f4ca07121e414288c4908a4803bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Corridor/Window.mat using Guid(5d7f4ca07121e414288c4908a4803bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3155e62b61d5bc1aa8347180b242f986') in 0.031357 seconds 
-  Import took 0.034242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Materials/BedRoom/Floor.mat
-  artifactKey: Guid(2bfd182a00290924abf99a86daf1e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BedRoom/Floor.mat using Guid(2bfd182a00290924abf99a86daf1e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa91ca145e0497394a2169645cb1471') in 0.031266 seconds 
-  Import took 0.033885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Materials/Corridor/Door_Post.mat
-  artifactKey: Guid(78a0737fcaa84b14d9527b1565fc5488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Corridor/Door_Post.mat using Guid(78a0737fcaa84b14d9527b1565fc5488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc0ab582057b88d27d424f9a6bde749') in 0.032283 seconds 
-  Import took 0.034777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Materials/Corridor/Floor.mat
-  artifactKey: Guid(059e99a55d1d3614ebfbdffbbe2e3e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Corridor/Floor.mat using Guid(059e99a55d1d3614ebfbdffbbe2e3e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43230ded4c1aa3829eddfbc0fcb2589') in 0.029970 seconds 
-  Import took 0.032651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Materials/DiningRoom/Chair.mat
-  artifactKey: Guid(41a54a7b601421848ac1ee00bed0c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DiningRoom/Chair.mat using Guid(41a54a7b601421848ac1ee00bed0c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d37c1a06c41385d51d1dfbc1c9111a4') in 0.027539 seconds 
-  Import took 0.030205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Materials/Characters/Light_Cone.mat
-  artifactKey: Guid(98a5d7f03b88cef44932b3206c7bd8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Characters/Light_Cone.mat using Guid(98a5d7f03b88cef44932b3206c7bd8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a62dd670083abb64915ef8ece36933') in 0.040752 seconds 
-  Import took 0.043329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Models/Corridor/Wall_Straight_01.fbx
-  artifactKey: Guid(ca04dfc6bbf3c2e4a9601d58495fff52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Corridor/Wall_Straight_01.fbx using Guid(ca04dfc6bbf3c2e4a9601d58495fff52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a3ef083c97d4c05417b3dbe7ffd28f') in 0.044311 seconds 
-  Import took 0.047112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Materials/DiningRoom/Floor.mat
-  artifactKey: Guid(060e5db52eac3d945bda1acfb5e7c4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DiningRoom/Floor.mat using Guid(060e5db52eac3d945bda1acfb5e7c4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ad41d4daf7bc3f1a98930c0dbd1bdf') in 0.032489 seconds 
-  Import took 0.035933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Materials/Bathroom/Walls.mat
-  artifactKey: Guid(9dab67fd89e742e45a9d885d6e1e14a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bathroom/Walls.mat using Guid(9dab67fd89e742e45a9d885d6e1e14a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8d7c3a8d702771806b7b0414764aec') in 0.035477 seconds 
-  Import took 0.038181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6142.124249 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(ef9787f504ddebf4c9948ce458d73711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(ef9787f504ddebf4c9948ce458d73711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897d6e247d203e917723cf74aac788bc') in 0.021534 seconds 
-  Import took 0.163244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.489892 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.040590 seconds 
-  Import took 0.043226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.654964 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(4482fcef7976c714ea69d235cae93e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(4482fcef7976c714ea69d235cae93e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601c5896a1775fe104ad53f4f9ce5d3b') in 0.010796 seconds 
-  Import took 0.013740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.228476 seconds.
-  path: Assets/Scenes/MainScene
-  artifactKey: Guid(036dd881e106f6a4490ccc209c50868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene using Guid(036dd881e106f6a4490ccc209c50868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fb173cab78fe28831246b1f00e3007') in 0.011923 seconds 
-  Import took 0.014960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.859089 seconds.
-  path: Assets/Scenes/MainScene/NavMesh.asset
-  artifactKey: Guid(400ff063b0f076f498e538073ffe383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene/NavMesh.asset using Guid(400ff063b0f076f498e538073ffe383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b70e05a2332f6b94ed26b38db35583') in 0.024288 seconds 
-  Import took 0.027610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.804976 seconds.
-  path: Packages/com.unity.cinemachine/package.json
-  artifactKey: Guid(7d93e7b7399fbe64790358e67fc94b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.cinemachine/package.json using Guid(7d93e7b7399fbe64790358e67fc94b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017028 seconds  code(4) message(Build asset version error: packages/com.unity.cinemachine/package.json in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
-  ERROR: Build asset version error: packages/com.unity.cinemachine/package.json in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
-  Import took 0.021296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.807084 seconds.
-  path: Packages/com.unity.cinemachine/Editor
-  artifactKey: Guid(d8623b6a09cb5ab4ea2c51347a3a074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.cinemachine/Editor using Guid(d8623b6a09cb5ab4ea2c51347a3a074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000349 seconds  code(4) message(Build asset version error: packages/com.unity.cinemachine/editor.meta in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
-  ERROR: Build asset version error: packages/com.unity.cinemachine/editor.meta in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
-  Import took 0.002573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046924 seconds.
-  path: Packages/com.unity.cinemachine/Editor/com.unity.cinemachine.Editor.asmdef
-  artifactKey: Guid(ba8c092d026123a418fb4bfb797a7bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.cinemachine/Editor/com.unity.cinemachine.Editor.asmdef using Guid(ba8c092d026123a418fb4bfb797a7bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010724 seconds  code(4) message(Build asset version error: packages/com.unity.cinemachine/editor/com.unity.cinemachine.editor.asmdef in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
-  ERROR: Build asset version error: packages/com.unity.cinemachine/editor/com.unity.cinemachine.editor.asmdef in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
-  Import took 0.013120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.083944 seconds.
-  path: Packages/com.unity.cinemachine/Editor/Windows
-  artifactKey: Guid(9c644b247df49ee47957d373411a85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.cinemachine/Editor/Windows using Guid(9c644b247df49ee47957d373411a85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000349 seconds  code(4) message(Build asset version error: packages/com.unity.cinemachine/editor/windows.meta in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
-  ERROR: Build asset version error: packages/com.unity.cinemachine/editor/windows.meta in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
-  Import took 0.002504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.034455 seconds.
-  path: Packages/com.unity.cinemachine/Editor/Windows/CinemachineColliderPrefs.cs
-  artifactKey: Guid(aceb1a3f85f55c249bba6eaade29f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.cinemachine/Editor/Windows/CinemachineColliderPrefs.cs using Guid(aceb1a3f85f55c249bba6eaade29f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000335 seconds  code(4) message(Build asset version error: packages/com.unity.cinemachine/editor/windows/cinemachinecolliderprefs.cs in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
-  ERROR: Build asset version error: packages/com.unity.cinemachine/editor/windows/cinemachinecolliderprefs.cs in SourceAssetDB has modification time of '2022-02-02T09:19:40Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
-  Import took 0.002555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.502422 seconds.
-  path: Packages/com.unity.cinemachine
-  artifactKey: Guid(c19eb9a4b328654bd4ca551e1c34b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.cinemachine using Guid(c19eb9a4b328654bd4ca551e1c34b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002626 seconds  code(5) message(Build asset version error: packages/com.unity.cinemachine.meta does not exit in SourceAssetDB)
-  ERROR: Build asset version error: packages/com.unity.cinemachine.meta does not exit in SourceAssetDB
-  Import took 0.005328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.118761 seconds.
-  path: Packages/com.unity.cinemachine
-  artifactKey: Guid(c19eb9a4b328654bd4ca551e1c34b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.cinemachine using Guid(c19eb9a4b328654bd4ca551e1c34b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000535 seconds  code(5) message(Build asset version error: packages/com.unity.cinemachine.meta does not exit in SourceAssetDB)
-  ERROR: Build asset version error: packages/com.unity.cinemachine.meta does not exit in SourceAssetDB
-  Import took 0.004664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.774648 seconds.
-  path: Packages/com.unity.2d.sprite
-  artifactKey: Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite using Guid(0901a6b758d060e9422c4f8d588d5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac9f0859ed1eccac4506b3b2480e9d0') in 0.010615 seconds 
-  Import took 0.014977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.991662 seconds.
-  path: Packages/com.unity.shadergraph
-  artifactKey: Guid(e7bcc7ca0c1a2a5e608ecad153be0f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph using Guid(e7bcc7ca0c1a2a5e608ecad153be0f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4349b9db8cb89332abd111789fc5f34a') in 0.006455 seconds 
-  Import took 0.009022 seconds .
+  Time since last request: 268.498581 seconds.
+  path: Assets/Scripts/GameEnding.cs
+  artifactKey: Guid(74ddd5efbcafabb4eb4711b9de2cea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameEnding.cs using Guid(74ddd5efbcafabb4eb4711b9de2cea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1cc4faee0d4c0bc60b9b0a7695781e') in 0.018191 seconds 
+  Import took 0.026988 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011821 seconds.
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:GetEventCloudOrganizationInfo due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:UpdateProgress due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:LaunchMigration due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.CollabMigration.MigrationDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Show due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.UI.Message.PlasticQuestionAlert:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:GetBranchRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Branches.Dialogs.RenameBranchDialog:BuildRenameData due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePath due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:BuildGetRestorePathResult due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.Diff.Dialogs.GetRestorePathDialog:GetRestorePathResultType due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:IncludeDependencies due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.PendingChanges.Dialogs.DependenciesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:ConfirmContinue due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.PlasticSCM.Editor.Views.ConfirmContinueWithPendingChangesDialog:Create due to: Could not load file or assembly 'unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876' or one of its dependencies. assembly:unityplastic, Version=10.0.16.6299, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:<unknown type> member:(null) signature:<none>
+Registered in 0.016056 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string)
-Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs:205)
-Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs:237)
-Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineColliderPrefs.cs:61)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs line 205]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.855 seconds
+- Completed reload, in  1.530 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1859ms)
-		BeginReloadAssembly (329ms)
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (315ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (134ms)
-		EndReloadAssembly (1424ms)
-			LoadAssemblies (213ms)
+			CreateAndSetChildDomain (158ms)
+		EndReloadAssembly (1134ms)
+			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (532ms)
-			ReleaseScriptCaches (12ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (524ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (390ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (379ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.7 MB.
-System memory in use after: 210.8 MB.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.1 MB.
+System memory in use after: 209.3 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3602.
-Total: 6.959300 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.230500 ms MarkObjects: 3.817300 ms  DeleteObjects: 2.603900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3616.
+Total: 4.535400 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.185500 ms MarkObjects: 4.060600 ms  DeleteObjects: 0.025700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012523 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.2 MB.
+System memory in use after: 209.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3618.
+Total: 3.839000 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.165700 ms MarkObjects: 3.381600 ms  DeleteObjects: 0.022600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1493,74 +298,557 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 85.706653 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
-  artifactKey: Guid(34845e0ca016b7448842e965db5890a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute using Guid(34845e0ca016b7448842e965db5890a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a144eece31e4db9e86f79c4e0ecfc8b2') in 0.059380 seconds 
-  Import took 0.065802 seconds .
+  Time since last request: 489.030790 seconds.
+  path: Assets/Scripts/GameEnding.cs
+  artifactKey: Guid(74ddd5efbcafabb4eb4711b9de2cea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameEnding.cs using Guid(74ddd5efbcafabb4eb4711b9de2cea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97baf6d76fd97abcee5221fe90d5a175') in 0.010949 seconds 
+  Import took 0.017421 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
-  artifactKey: Guid(4c63bc487e6c29a4a99f85a6c47b292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute using Guid(4c63bc487e6c29a4a99f85a6c47b292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7041f04c918bc97caaef072b0839b965') in 0.009102 seconds 
-  Import took 0.015176 seconds .
+  Time since last request: 743.304184 seconds.
+  path: Assets/Models/Characters
+  artifactKey: Guid(0a4baff46de2c5f42a4a87eb698b18ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters using Guid(0a4baff46de2c5f42a4a87eb698b18ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf0abf1a7fc35b8a2d2cfade06a54c8') in 0.008908 seconds 
+  Import took 0.017281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
-  artifactKey: Guid(6dba4103d23a7904fbc49099355aff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute using Guid(6dba4103d23a7904fbc49099355aff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498a469ef2826f9ace2cb6d09a2b3294') in 0.007663 seconds 
-  Import took 0.014099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
-  artifactKey: Guid(600d6212b59bb40409d19d750b5fd1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute using Guid(600d6212b59bb40409d19d750b5fd1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf44c8403be7316ef6e416728a1c3f2') in 0.008963 seconds 
-  Import took 0.015752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
-  artifactKey: Guid(e4d3e4779e48a374f91d48d4c0aedb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute using Guid(e4d3e4779e48a374f91d48d4c0aedb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eb0ac2019c1a0606b50a207ba853f4') in 0.006532 seconds 
-  Import took 0.013043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
-  artifactKey: Guid(8c2fcbdf9bc58664f89917f7b9d79501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute using Guid(8c2fcbdf9bc58664f89917f7b9d79501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc0d22090fec17307ed54e65ddc4c8f') in 0.007221 seconds 
-  Import took 0.014044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
-  artifactKey: Guid(31e9175024adfd44aba2530ff9b77494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute using Guid(31e9175024adfd44aba2530ff9b77494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d8fd5a194231fbb805c3deed7959b9') in 0.007501 seconds 
-  Import took 0.013995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
-  artifactKey: Guid(42496b74c071f5749950ca1abe33e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute using Guid(42496b74c071f5749950ca1abe33e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492418d2c11840f8213e483a3603b6ef') in 0.007321 seconds 
-  Import took 0.014170 seconds .
+  Time since last request: 0.047370 seconds.
+  path: Assets/Models/Characters/Gargoyle.fbx
+  artifactKey: Guid(d3312d02a690eda48bd6807bf5c78084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Gargoyle.fbx using Guid(d3312d02a690eda48bd6807bf5c78084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c356f20f5cda1f353175cbbb3fd53dc') in 0.243445 seconds 
+  Import took 0.251088 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000275 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
-  artifactKey: Guid(34a460e8a2e66c243a9c12024e5a798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute using Guid(34a460e8a2e66c243a9c12024e5a798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0772672f91ba6d25587630bde177659') in 0.007824 seconds 
-  Import took 0.014675 seconds .
+  path: Assets/Models/Characters/Ghost.fbx
+  artifactKey: Guid(563ac48ff656d49478fd93213f4c0eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Ghost.fbx using Guid(563ac48ff656d49478fd93213f4c0eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4b19c9ed4a8e750bdd37cc637654ec') in 0.072725 seconds 
+  Import took 0.079360 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Models/Characters/JohnLemon.fbx
+  artifactKey: Guid(b44f3940c4940544a8c2c6aee5fa086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/JohnLemon.fbx using Guid(b44f3940c4940544a8c2c6aee5fa086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7f3048e9f1f93d227b60f9370586a0') in 0.078616 seconds 
+  Import took 0.084899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.175209 seconds.
+  path: Assets/Prefabs/Gargoyle.prefab
+  artifactKey: Guid(2f43ca32ddd2a794599f6213ac519695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gargoyle.prefab using Guid(2f43ca32ddd2a794599f6213ac519695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83060a22a6775cb4ebecae22737db90') in 0.029441 seconds 
+  Import took 0.036759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.514749 seconds.
+  path: Assets/Prefabs/Ghost.prefab
+  artifactKey: Guid(9d1985505f1e665448a88fbff77790a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost.prefab using Guid(9d1985505f1e665448a88fbff77790a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005cb372cee0d0b8321f96a54bed1de8') in 0.046959 seconds 
+  Import took 0.053556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.382467 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(1f19bea6983d93d4083ef7ffa4b8bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(1f19bea6983d93d4083ef7ffa4b8bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9187d76b1901c989431d8bb8426d6c1') in 0.007624 seconds 
+  Import took 0.025255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.041493 seconds.
+  path: Assets/Animation/Animators
+  artifactKey: Guid(3e1ff1aa196645e4a912d1c3bb76a860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animators using Guid(3e1ff1aa196645e4a912d1c3bb76a860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4392db6839efc0dd55eb322660518eab') in 0.018509 seconds 
+  Import took 0.024959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.477646 seconds.
+  path: Assets/Animation/Animators/Gargoyle.controller
+  artifactKey: Guid(c6a1b21f0871c7047a855692073372b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animators/Gargoyle.controller using Guid(c6a1b21f0871c7047a855692073372b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6263c3003df8f35bf99ae7e3ef75076d') in 0.010318 seconds 
+  Import took 0.017065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.873862 seconds.
+  path: Assets/Animation/Animation
+  artifactKey: Guid(16c12986779f71343a6e6759d132b35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation using Guid(16c12986779f71343a6e6759d132b35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0855df43b2a6b466047a4b4cb3967930') in 0.017415 seconds 
+  Import took 0.024376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077490 seconds.
+  path: Assets/Animation/Animation/Gargoyle@Idle.fbx
+  artifactKey: Guid(475d389e70692ca4abb09caca1aef9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation/Gargoyle@Idle.fbx using Guid(475d389e70692ca4abb09caca1aef9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bd3057d4c8381ad2c0da857fdb2f0d') in 0.055734 seconds 
+  Import took 0.063032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Animation/Animation/John@Idle.fbx
+  artifactKey: Guid(873202b19b03a8a4e976f0b15d21cd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation/John@Idle.fbx using Guid(873202b19b03a8a4e976f0b15d21cd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4bd92a739e6269612d85a0157ac483') in 0.045300 seconds 
+  Import took 0.051839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Animation/Animation/Ghost@Walk.fbx
+  artifactKey: Guid(2017cad317b564c409a9e5bd02341461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation/Ghost@Walk.fbx using Guid(2017cad317b564c409a9e5bd02341461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd216a5a03a85a11d2e75429d3b7b26d7') in 0.042172 seconds 
+  Import took 0.048052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Animation/Animation/John@Walk.fbx
+  artifactKey: Guid(da1625e6a723d1745a6ba7f6565a130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation/John@Walk.fbx using Guid(da1625e6a723d1745a6ba7f6565a130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5211c7b40f3d4f1fcfb5040f60d8ba') in 0.040401 seconds 
+  Import took 0.046644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Animation/Animation/Ghost@Shower.fbx
+  artifactKey: Guid(4c7b6999390a2c24498d13e4084b200f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation/Ghost@Shower.fbx using Guid(4c7b6999390a2c24498d13e4084b200f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f882d6da0e38dff0c330263377345ea3') in 0.040305 seconds 
+  Import took 0.046364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.791652 seconds.
+  path: Assets/Scripts/Observer.cs
+  artifactKey: Guid(025e3874f93d2844c94286084e3ab74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Observer.cs using Guid(025e3874f93d2844c94286084e3ab74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58f9692402193d8fad83d3076fc7f56') in 0.008494 seconds 
+  Import took 0.015756 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.6 MB.
+System memory in use after: 209.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3628.
+Total: 4.057200 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.179500 ms MarkObjects: 3.574300 ms  DeleteObjects: 0.029900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (970ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.6 MB.
+System memory in use after: 209.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3630.
+Total: 4.311300 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.220900 ms MarkObjects: 3.739800 ms  DeleteObjects: 0.031300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1099ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.6 MB.
+System memory in use after: 209.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3632.
+Total: 3.835400 ms (FindLiveObjects: 0.270200 ms CreateObjectMapping: 0.170900 ms MarkObjects: 3.369300 ms  DeleteObjects: 0.024200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1217ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (977ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.6 MB.
+System memory in use after: 209.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3634.
+Total: 3.865800 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.172600 ms MarkObjects: 3.402000 ms  DeleteObjects: 0.027000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1361.419222 seconds.
+  path: Assets/Animation/Animators/Ghost.controller
+  artifactKey: Guid(8589f603c6a8db84a894a108e9534a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animators/Ghost.controller using Guid(8589f603c6a8db84a894a108e9534a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6caa7636b9154beb121c9611fbe0a2') in 0.071830 seconds 
+  Import took 0.091137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.817280 seconds.
+  path: Assets/Prefabs/Gargoyle.prefab
+  artifactKey: Guid(2f43ca32ddd2a794599f6213ac519695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gargoyle.prefab using Guid(2f43ca32ddd2a794599f6213ac519695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4224243ce2b0e3823362f2a7c73017') in 0.094181 seconds 
+  Import took 0.102208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Prefabs/Ghost.prefab
+  artifactKey: Guid(9d1985505f1e665448a88fbff77790a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost.prefab using Guid(9d1985505f1e665448a88fbff77790a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e71f50446e7c8a14ee7bf2b0d301dd') in 0.026930 seconds 
+  Import took 0.033952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.157097 seconds.
+  path: Assets/Prefabs/PointOfView.prefab
+  artifactKey: Guid(b9ab2d4996caec74eba881a1d848c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PointOfView.prefab using Guid(b9ab2d4996caec74eba881a1d848c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99804e584739fc43a2550c6449dcf53c') in 0.011411 seconds 
+  Import took 0.028475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.439956 seconds.
+  path: Assets/Prefabs/Gargoyle.prefab
+  artifactKey: Guid(2f43ca32ddd2a794599f6213ac519695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gargoyle.prefab using Guid(2f43ca32ddd2a794599f6213ac519695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1720c32bf4d71bd8f7f4130727f3acd') in 0.040900 seconds 
+  Import took 0.058237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.852376 seconds.
+  path: Assets/Prefabs/Ghost.prefab
+  artifactKey: Guid(9d1985505f1e665448a88fbff77790a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost.prefab using Guid(9d1985505f1e665448a88fbff77790a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da870977c1d397d37ef719c9f2135d6') in 0.028386 seconds 
+  Import took 0.046543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.363268 seconds.
+  path: Assets/Prefabs/Ghost.prefab
+  artifactKey: Guid(9d1985505f1e665448a88fbff77790a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost.prefab using Guid(9d1985505f1e665448a88fbff77790a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fbd1da032801ccd6afd40c7fc6a0da') in 0.040229 seconds 
+  Import took 0.047057 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011362 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1130ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (913ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.7 MB.
+System memory in use after: 209.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3638.
+Total: 4.051700 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.189100 ms MarkObjects: 3.571700 ms  DeleteObjects: 0.032300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.792907 seconds.
+  path: Assets/Scripts/WaypointPatrol.cs
+  artifactKey: Guid(a0f624933e402aa43899851c952e3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WaypointPatrol.cs using Guid(a0f624933e402aa43899851c952e3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d3bca22ea07d25989be300870ec237') in 0.011827 seconds 
+  Import took 0.017954 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014405 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1224ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (997ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.7 MB.
+System memory in use after: 210.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3640.
+Total: 4.390400 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.216300 ms MarkObjects: 3.838000 ms  DeleteObjects: 0.031000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328.558973 seconds.
+  path: Assets/Scripts/WaypointPatrol.cs
+  artifactKey: Guid(a0f624933e402aa43899851c952e3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WaypointPatrol.cs using Guid(a0f624933e402aa43899851c952e3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737b61ae129b1f5d1e864ecf01643f14') in 0.011380 seconds 
+  Import took 0.018396 seconds .
+
