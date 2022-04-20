@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     AudioSource m_AudioSource;
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
+    public Transform playerBody;
+    public float mouseSensitivity = 300f;
+    float xRotation = 0f;
 
     public float turnSpeed = 20f;
 
@@ -45,9 +48,15 @@ public class PlayerMovement : MonoBehaviour
         {
             m_AudioSource.Stop();
         }
+        //FPS Mouselook
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
-        Vector3 desiredForward = Vector3.RotateTowards (transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
-        m_Rotation = Quaternion.LookRotation (desiredForward);
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        this.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+        playerBody.Rotate(Vector3.up * mouseX);
     }
 
     void OnAnimatorMove ()
