@@ -5,7 +5,8 @@ using UnityEngine;
 public class Observer : MonoBehaviour
 {
     public Transform player;
-    GameEnding gameEnding;
+    PlayerMovement playerMovement;
+    public AudioSource boom;
 
     bool m_IsPlayerInRange;
 
@@ -13,7 +14,10 @@ public class Observer : MonoBehaviour
     {
         if(other.transform == player)
         {
-            m_IsPlayerInRange = true;
+            if(playerMovement.m_IsPlayerEctod == false)
+            {
+                m_IsPlayerInRange = true;
+            }
         }
     }
 
@@ -37,9 +41,15 @@ public class Observer : MonoBehaviour
             {
                 if(raycastHit.collider.transform == player)
                 {
-                    gameEnding.CaughtPlayer();
+                    playerMovement.TakeDamage();
                 }
             }
         }
+    }
+
+    public void GhostDeath()
+    {
+        boom.Play();
+
     }
 }

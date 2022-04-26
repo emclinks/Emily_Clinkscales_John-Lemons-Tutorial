@@ -15,8 +15,8 @@ public class GameEnding : MonoBehaviour
     public AudioSource exitAudio;
     public AudioSource caughtAudio;
     //Conditions
-    bool m_IsPlayerAtExit;
-    bool m_IsPlayerCaught;
+    public bool m_IsPlayerAtExit;
+    public bool m_IsPlayerDead;
     bool m_HasAudioPlayed;
     float m_Timer;
 
@@ -28,9 +28,9 @@ public class GameEnding : MonoBehaviour
         }
     }
 
-    public void CaughtPlayer()
+    public void PlayerDied()
     {
-        m_IsPlayerCaught = true;
+        m_IsPlayerDead = true;
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class GameEnding : MonoBehaviour
         {
             Endlevel(exitBackgroundImageCanvasGroup, false, exitAudio);
         }
-        else if(m_IsPlayerCaught)
+        else if(m_IsPlayerDead)
         {
             Endlevel(caughtBackgroundImageCanvasGroup, true, caughtAudio);
         }
@@ -64,7 +64,6 @@ public class GameEnding : MonoBehaviour
             {
                 SceneManager.LoadScene(0);
             }
-
             else
             {
                 Application.Quit();
