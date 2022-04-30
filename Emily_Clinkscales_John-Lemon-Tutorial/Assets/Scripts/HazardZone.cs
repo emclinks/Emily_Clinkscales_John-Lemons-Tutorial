@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HazardZone : MonoBehaviour;
+public class HazardZone : MonoBehaviour
 {
     //Connecting key objects and other code!
     public Transform player;

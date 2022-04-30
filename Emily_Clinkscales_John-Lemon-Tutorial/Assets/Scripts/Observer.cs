@@ -50,6 +50,5 @@ public class Observer : MonoBehaviour
     public void GhostDeath()
     {
         boom.Play();
-
     }
 }

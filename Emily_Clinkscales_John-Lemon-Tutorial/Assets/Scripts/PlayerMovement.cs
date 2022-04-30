@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     public bool m_PlayerHasKey;
     public bool m_IsPlayerEctod;
     GameEnding gameEnding;
+    Observer observer;
 
     // Start is called before the first frame update
     void Start()
@@ -109,7 +111,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if(m_IsPlayerEctod == true)
             {
-                Observer.GhostDeath();
+                observer.GhostDeath();
                 other.gameObject.SetActive(false);
                 count = count - 1;
             }
