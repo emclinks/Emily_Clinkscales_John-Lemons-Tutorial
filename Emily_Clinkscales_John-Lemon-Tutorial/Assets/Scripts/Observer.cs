@@ -7,6 +7,7 @@ public class Observer : MonoBehaviour
     public Transform player;
     PlayerMovement playerMovement;
     public AudioSource boom;
+    public ParticleSystem bloosh;
 
     bool m_IsPlayerInRange;
 
@@ -50,5 +51,6 @@ public class Observer : MonoBehaviour
     public void GhostDeath()
     {
         boom.Play();
+        bloosh.Play();
     }
 }

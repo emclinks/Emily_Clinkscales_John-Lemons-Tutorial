@@ -17,10 +17,15 @@ public class PlayerMovement : MonoBehaviour
     public float turnSpeed = 20f;
 
     //Feature Additions
+    public AudioSource ecto;
+    public AudioSource ping;
+    public AudioSource doorUnlock;
     public int health;
     int count;
     public TextMeshProUGUI healthText;
     public GameObject ectoText;
+    public GameObject battery;
+    public GameObject key;
     public bool m_PlayerHasKey;
     public bool m_IsPlayerEctod;
     GameEnding gameEnding;
@@ -32,6 +37,9 @@ public class PlayerMovement : MonoBehaviour
         //Feature starts
         health = 10;
         count = 7;
+        ecto = battery.GetComponent<AudioSource>();
+        ping = key.GetComponent<AudioSource>();
+        doorUnlock = doorUnlock.GetComponent<AudioSource>();
         SetHealthText();
         ectoText.SetActive(false);
 
@@ -95,6 +103,8 @@ public class PlayerMovement : MonoBehaviour
         if(other.gameObject.CompareTag("Ectoplasm"))
         {
             m_IsPlayerEctod = true;
+            other.gameObject.SetActive(false);
+            ecto.Play();
             Ectomode();
         }
         //Key to open door setup
@@ -102,6 +112,7 @@ public class PlayerMovement : MonoBehaviour
         {
             m_PlayerHasKey = true;
             other.gameObject.SetActive(false);
+            doorUnlock.Play();
         }
     }
     
